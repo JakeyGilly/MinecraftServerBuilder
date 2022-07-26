@@ -1,8 +1,5 @@
-import re
-
 import requests
 import os
-
 
 def main():
     with requests.get("https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar") as r:
